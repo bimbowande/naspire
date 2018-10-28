@@ -1,0 +1,21 @@
+{
+  "name": "nas-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.4",
+    "sass": "^1.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nas-demo@nas-demo.scm.azurewebsites.net:443/nas-demo.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

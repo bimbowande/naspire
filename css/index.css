@@ -1,0 +1,236 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100;
+  height: 100%; }
+
+.flex {
+  display: flex; }
+
+.flex-1 {
+  flex: 1; }
+
+.flex-2 {
+  flex: 2; }
+
+.flex-3 {
+  flex: 3; }
+
+.flex-4 {
+  flex: 5; }
+
+.container-custom {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+
+.section, .text-container {
+  margin: 0;
+  padding: 0; }
+
+.section {
+  height: inherit;
+  width: inherit;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+  .section-1 {
+    background-color: #fff; }
+  .section-2 {
+    background-color: rgba(1, 8, 14, 0.7);
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-blend-mode: overlay;
+    transition: all .3s ease-in .7s !important; }
+
+@media screen and (max-width: 700px) {
+  .section-2 {
+    background-position: center !important;
+    background-size: cover !important; } }
+
+.nav-body {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  width: 100% !important;
+  position: relative;
+  padding: 10px; }
+
+.nav-section {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: inherit;
+  position: relative; }
+  .nav-section .logo, .nav-section .btn-section {
+    display: inline-block;
+    width: 48%;
+    padding: 10px; }
+  .nav-section .logo {
+    position: relative;
+    height: 100%; }
+    .nav-section .logo img {
+      width: 20%;
+      position: relative;
+      top: 0px; }
+  .nav-section .btn-section {
+    height: 100%; }
+    .nav-section .btn-section .button {
+      display: flex;
+      justify-content: flex-end; }
+    .nav-section .btn-section .btn {
+      margin: 5px; }
+      .nav-section .btn-section .btn-login {
+        background: transparent;
+        border: none; }
+
+.text-container {
+  width: 100%;
+  position: relative; }
+
+.carousel {
+  display: inline-block;
+  color: #bebbbb;
+  position: absolute;
+  width: 50%;
+  left: 40px;
+  padding: 10px;
+  transition: all 200ms ease-in 200ms;
+  top: 140px; }
+  .carousel p {
+    font-weight: 100 !important;
+    font-size: 30px; }
+
+.carousel .btn-section .get-started {
+  padding: 10px;
+  width: 120px;
+  border: none; }
+
+.hide {
+  display: none; }
+
+.footer-class {
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0; }
+  .footer-class .footer-div {
+    width: inherit;
+    text-align: center; }
+  .footer-class ul {
+    width: inherit;
+    display: inline-block; }
+    .footer-class ul li {
+      float: left;
+      display: inline-block;
+      list-style: none;
+      color: white;
+      padding: 10px;
+      position: relative; }
+      .footer-class ul li a {
+        color: white;
+        cursor: pointer; }
+      .footer-class ul li:after {
+        content: ' | ';
+        position: relative;
+        left: 8px; }
+
+.close-nav span {
+  cursor: pointer;
+  transition: all 200ms ease-in-out .2s; }
+  .close-nav span:hover {
+    color: #ccc;
+    transform: scale(1.2); }
+
+.signUp, .signIn {
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  width: 60%;
+  top: 30px;
+  padding: 40px; }
+  .signUp .close-nav, .signIn .close-nav {
+    color: #fff !important;
+    position: relative; }
+    .signUp .close-nav span, .signIn .close-nav span {
+      position: absolute;
+      right: 2px;
+      font-size: 20px; }
+  .signUp .form, .signIn .form {
+    text-align: center;
+    margin-top: 30px; }
+    .signUp .form .info, .signIn .form .info {
+      color: #fff; }
+      .signUp .form .info span, .signIn .form .info span {
+        color: #293 !important;
+        cursor: pointer;
+        text-decoration: underline; }
+  .signUp .form-section, .signIn .form-section {
+    width: 80%;
+    margin: 0 auto; }
+
+.header-text {
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(255, 255, 255, 0.8); }
+  .header-text h1 {
+    font-size: 25px; }
+
+.form-section .form .input-group {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .form-section .form .input-group input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none; }
+  .form-section .form .input-group button {
+    width: 200px;
+    border-radius: 30px; }
+
+.hide {
+  display: none;
+  transition: all 200ms ease-in-out 200ms; }
+
+@media screen and (max-width: 800px) {
+  .signUp, .signIn {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute; }
+  .nav-section {
+    width: 100% !important; }
+    .nav-section .logo img {
+      width: 45%; }
+  .text-container {
+    width: 100%;
+    padding: 10px; }
+  .carousel {
+    width: 80%; }
+    .carousel p {
+      font-size: 26px; }
+  .header-text, .form-section {
+    position: relative;
+    top: 50px; }
+  .form .input-group {
+    width: 100%; }
+    .form .input-group input {
+      width: 90% !important; }
+  .footer-class .link-groups .links {
+    margin: 3px;
+    font-size: 13px;
+    padding: 2px;
+    font-weight: 100; }
+  .footer-class .link-groups li:after {
+    content: '' !important; } }
