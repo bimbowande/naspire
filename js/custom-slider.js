@@ -2,7 +2,7 @@
 $(function(){
 
 let toSlide = true;
-const sliderImages = [1,2,3];
+const sliderImages = [1,2,3,4];
 let index = 0;
 
 //template for text
