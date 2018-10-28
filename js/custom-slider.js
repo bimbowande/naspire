@@ -15,7 +15,7 @@ let slider = () =>{
     carouselText.eq(0).css('display','none');
    
     let sliderClass = document.querySelector('.slider-class');
-    sliderClass.style.backgroundImage = 'url(/images/1.jpg) ';
+    sliderClass.style.backgroundImage = 'url(./images/1.jpg)';
    
 
     //set interval for backgroundImage
@@ -29,7 +29,7 @@ let slider = () =>{
         carouselText.hide();
         const displayTxt = carouselText.eq(index);
         displayTxt.css('display','block');
-        sliderClass.style.backgroundImage = 'url(' +  '/images/' + sliderImages[index] + '.jpg)';
+        sliderClass.style.backgroundImage = 'url(' +  './images/' + sliderImages[index] + '.jpg)';
     },5000)
 }
 
